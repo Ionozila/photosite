@@ -63,31 +63,11 @@ header{
     border-radius: 50px;
 }
 
-
-
-
-
-.caruselu{
-    border-radius: 5px;
-}
-
-.main-carusel .carousel-item > div{
-    background-position: center;
-    background-size: cover;
-
-}
-.main-carusel .carousel-item > div:before{
-    content: "";
-    display: block;
-    padding-top: 40%;
-    background-size: cover;
-
-}
-
-.imaginecarusel{
+.carusel img{
     height: 130vh;
- 
 }
+
+
 
 .footer{
     padding: 100px 0px 20px;
@@ -163,9 +143,48 @@ header{
 }
 
 
-
-
 .despremine > img{
     max-width: 100%;
 
+}
+
+
+.about{
+    width: 100%;
+    padding: 78px 0px;
+    color: white;
+}
+
+.about img{
+    height: auto;
+    width: 420px;
+    border-radius: 3%;
+}
+
+.about-text{
+    width: 550px;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h1{
+    font-size: 60px;
+    color: #0088a9;
+    text-transform: capitalize;
+}
+
+.about-text h5{
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+.about-text p{
+    font-size: 18px;
 }
